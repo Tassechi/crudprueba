@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<TextView
+android:id="@+id/tex1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentTop="true"
+android:layout_alignStart="@+id/edit1"
+android:layout_marginTop="20dp"
+android:text="Nombre"
+android:textSize="18dp"
+tools:layout_editor_absoluteX="27dp"
+tools:layout_editor_absoluteY="16dp" />
+
+<EditText
+android:id="@+id/edit1"
+android:layout_width="331dp"
+android:layout_height="wrap_content"
+android:layout_alignParentTop="true"
+android:hint="Nombre"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="56dp"
+android:ems="10"
+android:inputType="textPersonName"
+android:textSize="16sp"
+tools:layout_editor_absoluteX="27dp"
+tools:layout_editor_absoluteY="45dp" />
+
+<TextView
+android:id="@+id/text2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentTop="true"
+android:layout_alignStart="@+id/edit1"
+android:layout_marginTop="114dp"
+android:text="Apellido"
+android:textSize="18dp"
+tools:layout_editor_absoluteX="27dp"
+tools:layout_editor_absoluteY="104dp" />
+
+<EditText
+android:id="@+id/edit2"
+android:layout_width="330dp"
+android:layout_height="wrap_content"
+android:hint="Apellido"
+android:layout_below="@+id/text2"
+android:layout_centerHorizontal="true"
+android:ems="10"
+android:inputType="textPersonName"
+android:textSize="16sp"
+tools:layout_editor_absoluteX="27dp"
+tools:layout_editor_absoluteY="137dp" />
+
+<Button
+android:id="@+id/btn1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignEnd="@+id/btn2"
+android:layout_alignParentBottom="true"
+android:layout_marginBottom="200dp"
+android:text="Guardar"
+tools:layout_editor_absoluteX="137dp"
+tools:layout_editor_absoluteY="199dp" />
+
+<Button
+android:id="@+id/btn2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentStart="true"
+android:layout_alignParentTop="true"
+android:layout_marginStart="127dp"
+android:layout_marginTop="197dp"
+android:text="Mostrar"
+tools:layout_editor_absoluteX="137dp"
+tools:layout_editor_absoluteY="267dp" />
+</RelativeLayout>
